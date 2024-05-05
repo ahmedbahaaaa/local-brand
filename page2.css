@@ -1,0 +1,75 @@
+/* Playfair Display */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+:root {
+    --main-color: #239b7e;
+    --main-font: "Playfair Display SC", serif;
+    --primary-font: "Roboto", sans-serif;
+  }
+
+/* .navbarhead{
+height: 100%;
+width: 100vh; 
+position: absolute;
+
+} */
+.navbarhead{
+    color: aqua;
+    display: flex;
+    position: sticky;
+    background-color: #eee;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    align-items: center;
+    justify-content: space-between;
+} 
+.navbarhead logo{
+    font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+
+.navbarhead a{
+    font-size: larger;
+    text-align: center;
+}
+
+.image_walpaper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    margin: 100px;
+} 
+
+.banneer{
+    position: absolute;
+    display: flex;
+    top: 300px;
+    color: brown;
+}
+
+.banneer h6{
+    position: absolute;
+    display: flex;
+    top: 60px; 
+    color: black;
+    padding: 20px;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+
+}
+
+    
